@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="toggleTheme">Toggle Theme</button>
+  <h1 id="typewriter"></h1>
+
+  <!-- Event Handling Section -->
+  <button id="clickBtn">Click me!</button>
+  <div id="hoverBox">Hover over me!</div>
+  <button id="secretBtn">Double click me!</button>
+
+  <!-- Image Gallery -->
+  <div>
+    <img id="gallery" src="img1.jpg" width="300" alt="Nature image" />
+    <button id="nextImg">Next</button>
+  </div>
+
+  <!-- Form Section -->
+  <form id="myForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" />
+    <input type="password" id="password" placeholder="Password" />
+    <button type="submit">Submit</button>
+  </form>
+  <div id="formFeedback"></div>
+
+  <!-- Optional: Background Audio -->
+  <audio autoplay loop controls>
+    <source src="forest.mp3" type="audio/mpeg">
+  </audio>
+  
+
+  <!-- JS Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
